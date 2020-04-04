@@ -1,0 +1,1745 @@
+@charset "UTF-8";
+
+/**
+*
+* -------------------------------------------------------
+*
+* Obsidian Price List - Addon for WPBakery Page Builder
+* Author : Dario Misic
+* Author URI : http://dariomisic.com
+*
+* -------------------------------------------------------
+*
+*/
+
+.pricelist-info .name {
+    font-size: 18px;
+    color: #3a3a3a;
+    line-height: 1.3;
+}
+
+[class*="tc-pricelist"] .pricelist-ratings i {
+    color: #FFC107;
+    font-size: 20px;
+    margin-right: 3px;
+}
+
+[class*="tc-pricelist"] .pricelist-ratings i:last-child {
+    margin-right: 0;
+}
+
+.tc-pricelist-style1 {
+    padding: 8px 13px 25px 0px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px
+rgba(0, 0, 0, 0.18);
+line-height: 70px;
+width: 93%;
+}
+
+.tc-pricelist-style1 .pricelist-desc {
+    position: relative;
+    padding-top: 156px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.tc-pricelist-style1 .pricelist-desc p {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.tc-pricelist-style1 .pricelist-photo {
+    display: inline-block;
+    position: absolute;
+    top: 160px;
+    left: 50%;
+    border-radius: 50%;
+    margin-right: 29px;
+    transform: translateX(-50%);
+}
+
+.tc-pricelist-style1 .pricelist-photo img {
+   width: 150px;
+height: 150px;
+    background: #f9f9f9;
+  
+    
+}
+
+.tc-pricelist-style1 .pricelist-info {
+    border-top: none !important;
+    padding-top: 0px;
+    text-align: center;
+}
+
+
+.tc-pricelist-style1 .position a:hover {
+    color: #bbb;
+}
+
+.tc-pricelist-style1 .name {
+    font-size: 17px;
+}
+
+.tc-pricelist-style1 .meta1 {
+
+height: 0px !important;
+width: 160px !important;
+font-size: 11px;
+color: #fff;
+background: #FF0000;
+text-transform: uppercase;
+padding: 50px 37px 25px 0px;
+text-align: center;
+display: block;
+position: absolute;
+left: -51px;
+top: -24px;
+-moz-transition: all 0.5s ease;
+-webkit-transition: all 0.5s ease;
+transition: all 0.5s ease;
+-webkit-transform: rotate(-44deg);
+-ms-transform: rotate(-44deg);
+transform: rotate(-42deg);
+z-index: 0;
+
+}
+
+.tc-pricelist-style1 .featured1 {
+    position: absolute;
+top: 0;
+overflow: hidden;
+height: 120px;
+width: 158px;
+text-align: center;
+z-index: 0;
+
+border-radius: 20px;
+line-height:15px !important;
+}
+
+
+.tc-pricelist-style1 .position .btn-link-title {
+     font-size: 16px;
+text-align: center !important;
+text-transform: uppercase;
+background-color: #5dbbd5;
+padding: 20px;
+border-radius: 25px;
+padding-left: 32px;
+padding-right: 35px;
+
+letter-spacing: 1px;
+color: #fff;
+margin-top:60px;
+}
+
+.tc-pricelist-style1 .position .btn-link-title, a:hover {
+   
+color: #fff !important;
+}
+
+.position {
+    text-align:center !important;
+}
+
+ .position .btn-link-title {
+   
+margin-top:60px !important;
+text-align: center !important;
+}
+
+@media screen and (max-width: 724px){
+ .tc-pricelist-style1 .position .btn-link-title {
+     padding-left: 19px;
+padding-right: 10px;
+margin-left: 12px;
+}
+}
+
+@media screen and (max-width: 724px){
+.tc-pricelist-style1 {
+    width: 90% !important;
+    position: relative;
+    right: -11px;
+}}
+
+/*-----------------------
+    Pricelist Style2
+-------------------------*/
+.tc-pricelist-style2 {
+    padding: 8px 13px 25px 0px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px
+rgba(0, 0, 0, 0.18);
+line-height: 70px;
+width: 93%;
+}
+
+.tc-pricelist-style2 .pricelist-desc {
+    position: relative;
+    padding-top: 156px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.tc-pricelist-style2 .pricelist-desc p {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.tc-pricelist-style2 .pricelist-photo {
+    display: inline-block;
+    position: absolute;
+    top: 160px;
+    left: 50%;
+    border-radius: 50%;
+    margin-right: 29px;
+    transform: translateX(-50%);
+}
+
+.tc-pricelist-style2 .pricelist-photo img {
+   width: 150px;
+height: 150px;
+    background: #f9f9f9;
+  
+    
+}
+
+.tc-pricelist-style2 .pricelist-info {
+    border-top: none !important;
+    padding-top: 0px;
+    text-align: center;
+}
+
+
+.tc-pricelist-style2 .position a:hover {
+    color: #bbb;
+}
+
+.tc-pricelist-style2 .name {
+    font-size: 17px;
+}
+
+.tc-pricelist-style2 .meta1 {
+
+height: 0px !important;
+width: 160px !important;
+font-size: 11px;
+color: #fff;
+background: #0000FF;
+text-transform: uppercase;
+padding: 50px 37px 25px 0px;
+text-align: center;
+display: block;
+position: absolute;
+left: -51px;
+top: -24px;
+-moz-transition: all 0.5s ease;
+-webkit-transition: all 0.5s ease;
+transition: all 0.5s ease;
+-webkit-transform: rotate(-44deg);
+-ms-transform: rotate(-44deg);
+transform: rotate(-42deg);
+z-index: 0;
+
+}
+
+.tc-pricelist-style2 .featured1 {
+    position: absolute;
+top: 0;
+overflow: hidden;
+height: 120px;
+width: 158px;
+text-align: center;
+z-index: 0;
+
+border-radius: 20px;
+line-height:15px !important;
+}
+
+
+.tc-pricelist-style2 .position .btn-link-title {
+     font-size: 16px;
+text-align: center !important;
+text-transform: uppercase;
+background-color: #5dbbd5;
+padding: 20px;
+border-radius: 25px;
+padding-left: 32px;
+padding-right: 35px;
+
+letter-spacing: 1px;
+color: #fff;
+margin-top:60px;
+}
+
+.tc-pricelist-style9 .position .btn-link-title, a:hover {
+   
+color: #fff !important;
+}
+
+.position {
+    text-align:center !important;
+}
+
+ .position .btn-link-title {
+   
+margin-top:60px !important;
+text-align: center !important;
+}
+
+@media screen and (max-width: 724px){
+ .tc-pricelist-style2 .position .btn-link-title {
+     padding-left: 19px;
+padding-right: 10px;
+margin-left: 12px;
+}
+}
+
+@media screen and (max-width: 724px){
+.tc-pricelist-style2 {
+    width: 90% !important;
+    position: relative;
+    right: -11px;
+}}
+
+/*-----------------------
+    Pricelist Style3
+-------------------------*/
+.tc-pricelist-style3 {
+    padding: 8px 13px 25px 0px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px
+rgba(0, 0, 0, 0.18);
+line-height: 70px;
+width: 93%;
+}
+
+.tc-pricelist-style3 .pricelist-desc {
+    position: relative;
+    padding-top: 156px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.tc-pricelist-style3 .pricelist-desc p {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.tc-pricelist-style3 .pricelist-photo {
+    display: inline-block;
+    position: absolute;
+    top: 160px;
+    left: 50%;
+    border-radius: 50%;
+    margin-right: 29px;
+    transform: translateX(-50%);
+}
+
+.tc-pricelist-style3 .pricelist-photo img {
+   width: 150px;
+height: 150px;
+    background: #f9f9f9;
+  
+    
+}
+
+.tc-pricelist-style3 .pricelist-info {
+    border-top: none !important;
+    padding-top: 0px;
+    text-align: center;
+}
+
+
+.tc-pricelist-style3 .position a:hover {
+    color: #bbb;
+}
+
+.tc-pricelist-style3 .name {
+    font-size: 17px;
+}
+
+.tc-pricelist-style3 .meta1 {
+
+height: 0px !important;
+width: 160px !important;
+font-size: 11px;
+color: #444;
+background: #FFFF00;
+text-transform: uppercase;
+padding: 50px 37px 25px 0px;
+text-align: center;
+display: block;
+position: absolute;
+left: -51px;
+top: -24px;
+-moz-transition: all 0.5s ease;
+-webkit-transition: all 0.5s ease;
+transition: all 0.5s ease;
+-webkit-transform: rotate(-44deg);
+-ms-transform: rotate(-44deg);
+transform: rotate(-42deg);
+z-index: 0;
+
+}
+
+.tc-pricelist-style3 .featured1 {
+    position: absolute;
+top: 0;
+overflow: hidden;
+height: 120px;
+width: 158px;
+text-align: center;
+z-index: 0;
+
+border-radius: 20px;
+line-height:15px !important;
+}
+
+
+.tc-pricelist-style3 .position .btn-link-title {
+     font-size: 16px;
+text-align: center !important;
+text-transform: uppercase;
+background-color: #5dbbd5;
+padding: 20px;
+border-radius: 25px;
+padding-left: 32px;
+padding-right: 35px;
+
+letter-spacing: 1px;
+color: #fff;
+margin-top:60px;
+}
+
+.tc-pricelist-style3 .position .btn-link-title, a:hover {
+   
+color: #fff !important;
+}
+
+.position {
+    text-align:center !important;
+}
+
+ .position .btn-link-title {
+   
+margin-top:60px !important;
+text-align: center !important;
+}
+
+@media screen and (max-width: 724px){
+ .tc-pricelist-style3 .position .btn-link-title {
+     padding-left: 19px;
+padding-right: 10px;
+margin-left: 12px;
+}
+}
+
+@media screen and (max-width: 724px){
+.tc-pricelist-style3 {
+    width: 90% !important;
+    position: relative;
+    right: -11px;
+}}
+
+/*-----------------------
+    Pricelist Style4
+-------------------------*/
+.tc-pricelist-style4 {
+    padding: 8px 13px 25px 0px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px
+rgba(0, 0, 0, 0.18);
+line-height: 70px;
+width: 93%;
+}
+
+.tc-pricelist-style4 .pricelist-desc {
+    position: relative;
+    padding-top: 156px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.tc-pricelist-style4 .pricelist-desc p {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.tc-pricelist-style4 .pricelist-photo {
+    display: inline-block;
+    position: absolute;
+    top: 160px;
+    left: 50%;
+    border-radius: 50%;
+    margin-right: 29px;
+    transform: translateX(-50%);
+}
+
+.tc-pricelist-style4 .pricelist-photo img {
+   width: 150px;
+height: 150px;
+    background: #f9f9f9;
+  
+    
+}
+
+.tc-pricelist-style4 .pricelist-info {
+    border-top: none !important;
+    padding-top: 0px;
+    text-align: center;
+}
+
+
+.tc-pricelist-style4 .position a:hover {
+    color: #bbb;
+}
+
+.tc-pricelist-style4 .name {
+    font-size: 17px;
+}
+
+.tc-pricelist-style4 .meta1 {
+
+height: 0px !important;
+width: 160px !important;
+font-size: 11px;
+color: #fff;
+background: #008000;
+text-transform: uppercase;
+padding: 50px 37px 25px 0px;
+text-align: center;
+display: block;
+position: absolute;
+left: -51px;
+top: -24px;
+-moz-transition: all 0.5s ease;
+-webkit-transition: all 0.5s ease;
+transition: all 0.5s ease;
+-webkit-transform: rotate(-44deg);
+-ms-transform: rotate(-44deg);
+transform: rotate(-42deg);
+z-index: 0;
+
+}
+
+.tc-pricelist-style4 .featured1 {
+    position: absolute;
+top: 0;
+overflow: hidden;
+height: 120px;
+width: 158px;
+text-align: center;
+z-index: 0;
+
+border-radius: 20px;
+line-height:15px !important;
+}
+
+
+.tc-pricelist-style4 .position .btn-link-title {
+     font-size: 16px;
+text-align: center !important;
+text-transform: uppercase;
+background-color: #5dbbd5;
+padding: 20px;
+border-radius: 25px;
+padding-left: 32px;
+padding-right: 35px;
+
+letter-spacing: 1px;
+color: #fff;
+margin-top:60px;
+}
+
+.tc-pricelist-style4 .position .btn-link-title, a:hover {
+   
+color: #fff !important;
+}
+
+.position {
+    text-align:center !important;
+}
+
+ .position .btn-link-title {
+   
+margin-top:60px !important;
+text-align: center !important;
+}
+
+@media screen and (max-width: 724px){
+ .tc-pricelist-style4 .position .btn-link-title {
+     padding-left: 19px;
+padding-right: 10px;
+margin-left: 12px;
+}
+}
+
+@media screen and (max-width: 724px){
+.tc-pricelist-style4 {
+    width: 90% !important;
+    position: relative;
+    right: -11px;
+}}
+
+/*-----------------------
+    Pricelist Style5
+-------------------------*/
+.tc-pricelist-style5 {
+    padding: 8px 13px 25px 0px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px
+rgba(0, 0, 0, 0.18);
+line-height: 70px;
+width: 93%;
+}
+
+.tc-pricelist-style5 .pricelist-desc {
+    position: relative;
+    padding-top: 156px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.tc-pricelist-style5 .pricelist-desc p {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.tc-pricelist-style5 .pricelist-photo {
+    display: inline-block;
+    position: absolute;
+    top: 160px;
+    left: 50%;
+    border-radius: 50%;
+    margin-right: 29px;
+    transform: translateX(-50%);
+}
+
+.tc-pricelist-style5 .pricelist-photo img {
+   width: 150px;
+height: 150px;
+    background: #f9f9f9;
+  
+    
+}
+
+.tc-pricelist-style5 .pricelist-info {
+    border-top: none !important;
+    padding-top: 0px;
+    text-align: center;
+}
+
+
+.tc-pricelist-style5 .position a:hover {
+    color: #bbb;
+}
+
+.tc-pricelist-style5 .name {
+    font-size: 17px;
+}
+
+.tc-pricelist-style5 .meta1 {
+
+height: 0px !important;
+width: 160px !important;
+font-size: 11px;
+color: #fff;
+background: #FF4500;
+text-transform: uppercase;
+padding: 50px 37px 25px 0px;
+text-align: center;
+display: block;
+position: absolute;
+left: -51px;
+top: -24px;
+-moz-transition: all 0.5s ease;
+-webkit-transition: all 0.5s ease;
+transition: all 0.5s ease;
+-webkit-transform: rotate(-44deg);
+-ms-transform: rotate(-44deg);
+transform: rotate(-42deg);
+z-index: 0;
+
+}
+
+.tc-pricelist-style5 .featured1 {
+    position: absolute;
+top: 0;
+overflow: hidden;
+height: 120px;
+width: 158px;
+text-align: center;
+z-index: 0;
+
+border-radius: 20px;
+line-height:15px !important;
+}
+
+
+.tc-pricelist-style5 .position .btn-link-title {
+     font-size: 16px;
+text-align: center !important;
+text-transform: uppercase;
+background-color: #5dbbd5;
+padding: 20px;
+border-radius: 25px;
+padding-left: 32px;
+padding-right: 35px;
+
+letter-spacing: 1px;
+color: #fff;
+margin-top:60px;
+}
+
+.tc-pricelist-style5 .position .btn-link-title, a:hover {
+   
+color: #fff !important;
+}
+
+.position {
+    text-align:center !important;
+}
+
+ .position .btn-link-title {
+   
+margin-top:60px !important;
+text-align: center !important;
+}
+
+@media screen and (max-width: 724px){
+ .tc-pricelist-style5 .position .btn-link-title {
+     padding-left: 19px;
+padding-right: 10px;
+margin-left: 12px;
+}
+}
+
+@media screen and (max-width: 724px){
+.tc-pricelist-style5 {
+    width: 90% !important;
+    position: relative;
+    right: -11px;
+}}
+
+/*-----------------------
+    Pricelist Style6
+-------------------------*/
+.tc-pricelist-style6 {
+    padding: 8px 13px 25px 0px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px
+rgba(0, 0, 0, 0.18);
+line-height: 70px;
+width: 93%;
+}
+
+.tc-pricelist-style6 .pricelist-desc {
+    position: relative;
+    padding-top: 156px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.tc-pricelist-style6 .pricelist-desc p {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.tc-pricelist-style6 .pricelist-photo {
+    display: inline-block;
+    position: absolute;
+    top: 160px;
+    left: 50%;
+    border-radius: 50%;
+    margin-right: 29px;
+    transform: translateX(-50%);
+}
+
+.tc-pricelist-style6 .pricelist-photo img {
+   width: 150px;
+height: 150px;
+    background: #f9f9f9;
+  
+    
+}
+
+.tc-pricelist-style6 .pricelist-info {
+    border-top: none !important;
+    padding-top: 0px;
+    text-align: center;
+}
+
+
+.tc-pricelist-style6 .position a:hover {
+    color: #bbb;
+}
+
+.tc-pricelist-style6 .name {
+    font-size: 17px;
+}
+
+.tc-pricelist-style6 .meta1 {
+
+height: 0px !important;
+width: 160px !important;
+font-size: 11px;
+color: #fff;
+background: #800080;
+text-transform: uppercase;
+padding: 50px 37px 25px 0px;
+text-align: center;
+display: block;
+position: absolute;
+left: -51px;
+top: -24px;
+-moz-transition: all 0.5s ease;
+-webkit-transition: all 0.5s ease;
+transition: all 0.5s ease;
+-webkit-transform: rotate(-44deg);
+-ms-transform: rotate(-44deg);
+transform: rotate(-42deg);
+z-index: 0;
+
+}
+
+.tc-pricelist-style6 .featured1 {
+    position: absolute;
+top: 0;
+overflow: hidden;
+height: 120px;
+width: 158px;
+text-align: center;
+z-index: 0;
+
+border-radius: 20px;
+line-height:15px !important;
+}
+
+
+.tc-pricelist-style6 .position .btn-link-title {
+     font-size: 16px;
+text-align: center !important;
+text-transform: uppercase;
+background-color: #5dbbd5;
+padding: 20px;
+border-radius: 25px;
+padding-left: 32px;
+padding-right: 35px;
+
+letter-spacing: 1px;
+color: #fff;
+margin-top:60px;
+}
+
+.tc-pricelist-style6 .position .btn-link-title, a:hover {
+   
+color: #fff !important;
+}
+
+.position {
+    text-align:center !important;
+}
+
+ .position .btn-link-title {
+   
+margin-top:60px !important;
+text-align: center !important;
+}
+
+@media screen and (max-width: 724px){
+ .tc-pricelist-style6 .position .btn-link-title {
+     padding-left: 19px;
+padding-right: 10px;
+margin-left: 12px;
+}
+}
+
+@media screen and (max-width: 724px){
+.tc-pricelist-style6 {
+    width: 90% !important;
+    position: relative;
+    right: -11px;
+}}
+
+/*-----------------------
+    Pricelist Style7
+-------------------------*/
+.tc-pricelist-style7 {
+    padding: 8px 13px 25px 0px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px
+rgba(0, 0, 0, 0.18);
+line-height: 70px;
+width: 93%;
+}
+
+.tc-pricelist-style7 .pricelist-desc {
+    position: relative;
+    padding-top: 156px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.tc-pricelist-style7 .pricelist-desc p {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.tc-pricelist-style7 .pricelist-photo {
+    display: inline-block;
+    position: absolute;
+    top: 160px;
+    left: 50%;
+    border-radius: 50%;
+    margin-right: 29px;
+    transform: translateX(-50%);
+}
+
+.tc-pricelist-style7 .pricelist-photo img {
+   width: 150px;
+height: 150px;
+    background: #f9f9f9;
+  
+    
+}
+
+.tc-pricelist-style7 .pricelist-info {
+    border-top: none !important;
+    padding-top: 0px;
+    text-align: center;
+}
+
+
+.tc-pricelist-style7 .position a:hover {
+    color: #bbb;
+}
+
+.tc-pricelist-style7 .name {
+    font-size: 17px;
+}
+
+.tc-pricelist-style7 .meta1 {
+
+height: 0px !important;
+width: 160px !important;
+font-size: 11px;
+color: #fff;
+background: #A52A2A;
+text-transform: uppercase;
+padding: 50px 37px 25px 0px;
+text-align: center;
+display: block;
+position: absolute;
+left: -51px;
+top: -24px;
+-moz-transition: all 0.5s ease;
+-webkit-transition: all 0.5s ease;
+transition: all 0.5s ease;
+-webkit-transform: rotate(-44deg);
+-ms-transform: rotate(-44deg);
+transform: rotate(-42deg);
+z-index: 0;
+
+}
+
+.tc-pricelist-style7 .featured1 {
+    position: absolute;
+top: 0;
+overflow: hidden;
+height: 120px;
+width: 158px;
+text-align: center;
+z-index: 0;
+
+border-radius: 20px;
+line-height:15px !important;
+}
+
+
+.tc-pricelist-style7 .position .btn-link-title {
+     font-size: 16px;
+text-align: center !important;
+text-transform: uppercase;
+background-color: #5dbbd5;
+padding: 20px;
+border-radius: 25px;
+padding-left: 32px;
+padding-right: 35px;
+
+letter-spacing: 1px;
+color: #fff;
+margin-top:60px;
+}
+
+.tc-pricelist-style7 .position .btn-link-title, a:hover {
+   
+color: #fff !important;
+}
+
+.position {
+    text-align:center !important;
+}
+
+ .position .btn-link-title {
+   
+margin-top:60px !important;
+text-align: center !important;
+}
+
+@media screen and (max-width: 724px){
+ .tc-pricelist-style7 .position .btn-link-title {
+     padding-left: 19px;
+padding-right: 10px;
+margin-left: 12px;
+}
+}
+
+@media screen and (max-width: 724px){
+.tc-pricelist-style7 {
+    width: 90% !important;
+    position: relative;
+    right: -11px;
+}}
+
+/*-----------------------
+    Pricelist Style8
+-------------------------*/
+.tc-pricelist-style8 {
+    padding: 8px 13px 25px 0px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px
+rgba(0, 0, 0, 0.18);
+line-height: 70px;
+width: 93%;
+}
+
+.tc-pricelist-style8 .pricelist-desc {
+    position: relative;
+    padding-top: 156px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.tc-pricelist-style8 .pricelist-desc p {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.tc-pricelist-style8 .pricelist-photo {
+    display: inline-block;
+    position: absolute;
+    top: 160px;
+    left: 50%;
+    border-radius: 50%;
+    margin-right: 29px;
+    transform: translateX(-50%);
+}
+
+.tc-pricelist-style8 .pricelist-photo img {
+   width: 150px;
+height: 150px;
+    background: #f9f9f9;
+  
+    
+}
+
+.tc-pricelist-style8 .pricelist-info {
+    border-top: none !important;
+    padding-top: 0px;
+    text-align: center;
+}
+
+
+.tc-pricelist-style8 .position a:hover {
+    color: #bbb;
+}
+
+.tc-pricelist-style8 .name {
+    font-size: 17px;
+}
+
+.tc-pricelist-style8 .meta1 {
+
+height: 0px !important;
+width: 160px !important;
+font-size: 11px;
+color: #444;
+background: #FF00FF;
+text-transform: uppercase;
+padding: 50px 37px 25px 0px;
+text-align: center;
+display: block;
+position: absolute;
+left: -51px;
+top: -24px;
+-moz-transition: all 0.5s ease;
+-webkit-transition: all 0.5s ease;
+transition: all 0.5s ease;
+-webkit-transform: rotate(-44deg);
+-ms-transform: rotate(-44deg);
+transform: rotate(-42deg);
+z-index: 0;
+
+}
+
+.tc-pricelist-style8 .featured1 {
+    position: absolute;
+top: 0;
+overflow: hidden;
+height: 120px;
+width: 158px;
+text-align: center;
+z-index: 0;
+
+border-radius: 20px;
+line-height:15px !important;
+}
+
+
+.tc-pricelist-style8 .position .btn-link-title {
+     font-size: 16px;
+text-align: center !important;
+text-transform: uppercase;
+background-color: #5dbbd5;
+padding: 20px;
+border-radius: 25px;
+padding-left: 32px;
+padding-right: 35px;
+
+letter-spacing: 1px;
+color: #fff;
+margin-top:60px;
+}
+
+.tc-pricelist-style8 .position .btn-link-title, a:hover {
+   
+color: #fff !important;
+}
+
+.position {
+    text-align:center !important;
+}
+
+ .position .btn-link-title {
+   
+margin-top:60px !important;
+text-align: center !important;
+}
+
+@media screen and (max-width: 724px){
+ .tc-pricelist-style8 .position .btn-link-title {
+     padding-left: 19px;
+padding-right: 10px;
+margin-left: 12px;
+}
+}
+
+@media screen and (max-width: 724px){
+.tc-pricelist-style8 {
+    width: 90% !important;
+    position: relative;
+    right: -11px;
+}}
+
+/*-----------------------
+    Pricelist Style9
+-------------------------*/
+.tc-pricelist-style9 {
+    padding: 8px 13px 25px 0px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px
+rgba(0, 0, 0, 0.18);
+line-height: 70px;
+width: 93%;
+}
+
+.tc-pricelist-style9 .pricelist-desc {
+    position: relative;
+    padding-top: 156px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.tc-pricelist-style9 .pricelist-desc p {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.tc-pricelist-style9 .pricelist-photo {
+    display: inline-block;
+    position: absolute;
+    top: 160px;
+    left: 50%;
+    border-radius: 50%;
+    margin-right: 29px;
+    transform: translateX(-50%);
+}
+
+.tc-pricelist-style9 .pricelist-photo img {
+   width: 150px;
+height: 150px;
+    background: #f9f9f9;
+  
+    
+}
+
+.tc-pricelist-style9 .pricelist-info {
+    border-top: none !important;
+    padding-top: 0px;
+    text-align: center;
+}
+
+
+.tc-pricelist-style9 .position a:hover {
+    color: #bbb;
+}
+
+.tc-pricelist-style9 .name {
+    font-size: 17px;
+}
+
+.tc-pricelist-style9 .meta1 {
+
+height: 0px !important;
+width: 160px !important;
+font-size: 11px;
+color: #fff;
+background: #111;
+text-transform: uppercase;
+padding: 50px 37px 25px 0px;
+text-align: center;
+display: block;
+position: absolute;
+left: -51px;
+top: -24px;
+-moz-transition: all 0.5s ease;
+-webkit-transition: all 0.5s ease;
+transition: all 0.5s ease;
+-webkit-transform: rotate(-44deg);
+-ms-transform: rotate(-44deg);
+transform: rotate(-42deg);
+z-index: 0;
+
+}
+
+.tc-pricelist-style9 .featured1 {
+    position: absolute;
+top: 0;
+overflow: hidden;
+height: 120px;
+width: 158px;
+text-align: center;
+z-index: 0;
+
+border-radius: 20px;
+line-height:15px !important;
+}
+
+
+.tc-pricelist-style9 .position .btn-link-title {
+     font-size: 16px;
+text-align: center !important;
+text-transform: uppercase;
+background-color: #5dbbd5;
+padding: 20px;
+border-radius: 25px;
+padding-left: 32px;
+padding-right: 35px;
+
+letter-spacing: 1px;
+color: #fff;
+margin-top:60px;
+}
+
+.tc-pricelist-style9 .position .btn-link-title, a:hover {
+   
+color: #fff !important;
+}
+
+.position {
+    text-align:center !important;
+}
+
+ .position .btn-link-title {
+   
+margin-top:60px !important;
+text-align: center !important;
+}
+
+@media screen and (max-width: 724px){
+ .tc-pricelist-style9 .position .btn-link-title {
+     padding-left: 19px;
+padding-right: 10px;
+margin-left: 12px;
+}
+}
+
+@media screen and (max-width: 724px){
+.tc-pricelist-style9 {
+    width: 90% !important;
+    position: relative;
+    right: -11px;
+}}
+
+
+
+/*-----------------------
+    Pricelist Style10
+-------------------------*/
+.tc-pricelist-style10 {
+    padding: 8px 13px 25px 0px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px
+rgba(0, 0, 0, 0.18);
+line-height: 70px;
+width: 93%;
+}
+
+.tc-pricelist-style10 .pricelist-desc {
+    position: relative;
+    padding-top: 156px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.tc-pricelist-style10 .pricelist-desc p {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.tc-pricelist-style10 .pricelist-photo {
+    display: inline-block;
+    position: absolute;
+    top: 160px;
+    left: 50%;
+    border-radius: 50%;
+    margin-right: 29px;
+    transform: translateX(-50%);
+}
+
+.tc-pricelist-style10 .pricelist-photo img {
+   width: 150px;
+height: 150px;
+    background: #f9f9f9;
+  
+    
+}
+
+.tc-pricelist-style10 .pricelist-info {
+    border-top: none !important;
+    padding-top: 0px;
+    text-align: center;
+}
+
+
+.tc-pricelist-style10 .position a:hover {
+    color: #bbb;
+}
+
+.tc-pricelist-style10 .name {
+    font-size: 17px;
+}
+
+.tc-pricelist-style10 .meta1 {
+
+height: 0px !important;
+width: 160px !important;
+font-size: 11px;
+color: #444;
+background: #FF1493;
+text-transform: uppercase;
+padding: 50px 37px 25px 0px;
+text-align: center;
+display: block;
+position: absolute;
+left: -51px;
+top: -24px;
+-moz-transition: all 0.5s ease;
+-webkit-transition: all 0.5s ease;
+transition: all 0.5s ease;
+-webkit-transform: rotate(-44deg);
+-ms-transform: rotate(-44deg);
+transform: rotate(-42deg);
+z-index: 0;
+
+}
+
+.tc-pricelist-style10 .featured1 {
+    position: absolute;
+top: 0;
+overflow: hidden;
+height: 120px;
+width: 158px;
+text-align: center;
+z-index: 0;
+
+border-radius: 20px;
+line-height:15px !important;
+}
+
+
+.tc-pricelist-style10 .position .btn-link-title {
+     font-size: 16px;
+text-align: center !important;
+text-transform: uppercase;
+background-color: #5dbbd5;
+padding: 20px;
+border-radius: 25px;
+padding-left: 32px;
+padding-right: 35px;
+
+letter-spacing: 1px;
+color: #fff;
+margin-top:60px;
+}
+
+.tc-pricelist-style10 .position .btn-link-title, a:hover {
+   
+color: #fff !important;
+}
+
+.position {
+    text-align:center !important;
+}
+
+ .position .btn-link-title {
+   
+margin-top:60px !important;
+text-align: center !important;
+}
+
+@media screen and (max-width: 724px){
+ .tc-pricelist-style10 .position .btn-link-title {
+     padding-left: 19px;
+padding-right: 10px;
+margin-left: 12px;
+}
+}
+
+@media screen and (max-width: 724px){
+.tc-pricelist-style10 {
+    width: 90% !important;
+    position: relative;
+    right: -11px;
+}}
+
+/*-----------------------
+    Pricelist Style 11
+-------------------------
+.tc-pricelist-style11 {
+    padding: 45px 30px 40px 40px;
+    background: #fff;
+    margin-bottom: 30px;
+    position: relative;
+    border: 1px solid #dedede;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.tc-pricelist-style11:hover {
+    border-color: #ccc;
+    box-shadow: 0 20px 40px -5px rgba(9,30,66,.3);
+    transform: translateY(-4px);
+}
+
+.tc-pricelist-style11:before {
+    font-family: FontAwesome;
+    content: "\f10d";
+    position: absolute;
+    top: 12px;
+    left: 23px;
+    font-size: 150px;
+    color: #1b309f;
+    opacity: 0.05;
+    line-height: 1;
+}
+
+
+.tc-pricelist-style11 .pricelist-desc {
+    text-align: center;
+}
+
+.tc-pricelist-style11 .pricelist-desc p {
+    font-size: 19px;
+    line-height: 30px;
+    font-style: italic;
+}
+
+.tc-pricelist-style11 .pricelist-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 34px;
+}
+
+.tc-pricelist-style11 .pricelist-photo:before {
+    content: "";
+    display: table-cell;
+}
+
+.tc-pricelist-style11 .pricelist-photo:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.tc-pricelist-style11 .pricelist-photo img {
+    height: 80px;
+    width: 80px;
+    border-radius: 10px;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.tc-pricelist-style11 .pricelist-info .name {
+    font-size: 22px;
+    color: #3a3a3a;
+}
+
+.tc-pricelist-style11 .position {
+    font-size: 16px;
+    color: #777;
+}
+
+.tc-pricelist-style11 .position a {
+    color: #777;
+}
+
+
+/*--------------------------
+    Pricelist Style 12
+----------------------------
+.tc-pricelist-style12 {
+    padding: 35px;
+    background: #fff;
+    position: relative;
+    margin-top: 40px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.tc-pricelist-style12:before {
+    font-family: FontAwesome;
+    content: "\f10d";
+    position: absolute;
+    top: 16px;
+    right: 25px;
+    font-size: 64px;
+    color: #344296;
+    opacity: 0.1;
+    line-height: 1;
+    transform: rotate(180deg);
+}
+
+.tc-pricelist-style12 .pricelist-desc {
+    padding-top: 35px;
+}
+
+.tc-pricelist-style12 .pricelist-desc p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.tc-pricelist-style12 .pricelist-photo {
+    display: inline-block;
+    position: absolute;
+    top: -40px;
+    border-radius: 50%;
+}
+
+.tc-pricelist-style12 .pricelist-photo img {
+    width: 80px;
+    height: 80px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
+    background: #fff;
+    padding: 6px;
+    border-radius: 50%;
+}
+
+.tc-pricelist-style12 .pricelist-info {
+    text-align: right;
+    position: relative;
+    margin-top: 14px;
+}
+
+.tc-pricelist-style12 .pricelist-info .name {
+    font-size: 22px;
+    color: #3a3a3a;
+}
+
+.tc-pricelist-style12 .position {
+    font-size: 16px;
+    color: #555;
+}
+
+.tc-pricelist-style12 .position a {
+    color: #555;
+}
+
+.tc-pricelist-style12 .pricelist-ratings i {
+    color: #FFC107;
+    font-size: 23px;
+    margin-right: 3px;
+}
+
+@media ( min-width: 600px ) {
+    .tc-pricelist-style12 .pricelist-ratings {
+        text-align: left;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+
+/*-----------------------
+    Pricelist Style 13
+-------------------------
+.tc-pricelist-style13 .pricelist-desc {
+    padding: 35px;
+    background: #fff;
+    margin-bottom: 50px;
+    border-left: 4px solid #F44336;
+    position: relative;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.1);
+}
+
+.tc-pricelist-style13 .pricelist-desc p {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.tc-pricelist-style13 .pricelist-desc:after {
+    content: '';
+    border: 30px solid transparent;
+    position: absolute;
+    border-top-color: #fff;
+    bottom: -60px;
+    left: 47%;
+    transform: translateX(-50%);
+}
+
+.tc-pricelist-style13 .pricelist-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tc-pricelist-style13 .pricelist-photo:before {
+    content: "";
+    display: table-cell;
+}
+
+.tc-pricelist-style13 .pricelist-photo:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.tc-pricelist-style13 .pricelist-photo img {
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    padding: 6px;
+    background: #fff;
+    vertical-align: middle;
+    margin-right: 20px;
+    border: 1px solid #eee;
+}
+
+.tc-pricelist-style13 .position {
+    font-size: 14px;
+    color: #5a5a5a;
+    margin-bottom: 3px;
+}
+
+.tc-pricelist-style13 .position a {
+    color: #E91E63;
+}
+
+
+/*-----------------------
+    Pricelist Style 14
+-------------------------
+.tc-pricelist-style14 {
+    padding: 33px;
+    background-color: #3f61f6;
+    background-image: linear-gradient(45deg,#9C27B0 0,#5a23ff 100%);
+    position: relative;
+    margin-bottom: 40px;
+    border-radius: 7px;
+}
+
+.tc-pricelist-style14 .pricelist-desc p {
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+.tc-pricelist-style14 .pricelist-photo {
+    display: inline-block;
+    position: absolute;
+    bottom: -36px;
+    border-radius: 50%;
+}
+
+.tc-pricelist-style14 .pricelist-photo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    box-shadow: 0 0 0 6px rgba(151, 151, 151, 0.07);
+}
+
+.tc-pricelist-style14 .pricelist-info {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.tc-pricelist-style14 .position {
+    font-size: 12px;
+    color: #fff;
+    margin-bottom: 4px;
+}
+
+.tc-pricelist-style14 *,
+.tc-pricelist-style14 .pricelist-info .name {
+    color: #fff;
+}
+
+.tc-pricelist-style14 .position a {
+    color: #fff;
+}
